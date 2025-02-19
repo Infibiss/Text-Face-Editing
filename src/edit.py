@@ -232,7 +232,7 @@ def parse_args():
 
 # <------------- СКАЧИВАНИЕ ВЕСОВ ------------->
 def download_weights():
-    from download_weights import download_files
+    from download_files import download_files
     download_files("../data/downloads")
 
 # <------------- ОСНОВНОЙ КОД ------------->
